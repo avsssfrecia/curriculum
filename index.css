@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: calibri;
+}
+body{
+  background-size: cover;
+  background-image: url(f.gif);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  height: 100vh;
+}
+.form-login{
+  width: 35%;
+  height: 35%;
+  background: #b0c2f2;
+  margin: 220px 420px;
+  padding: 60px 30px;
+  border-top: 5px solid #fabfb7;
+  color: white;
+  border-radius: 10px;
+}
+a{
+  border-radius: 15px;
+  padding: 10px 25px;
+  text-decoration: none;
+  color: white;
+  background-color: #fabfb7;
+  margin: 0px;
+  font-size: 18px;
+}
+a:hover{
+  background: #fcb7af;
+}
+html,
+body {
+	height: 100%;
+  	background-color: #222;
+	overflow: hidden;
